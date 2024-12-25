@@ -34,7 +34,7 @@ data.forEach((item) => {
         })
 })
 
-// const matn = prompt('matn kiriting').trim().split(' ');
+// const matn = prompt('matn kiriting').trim().split(' ')
 // const newMatn =[]
 // matn.forEach((text)=>{
 //     let res = text.charAt().toLowerCase()+text.slice(1).toUpperCase()
@@ -42,10 +42,33 @@ data.forEach((item) => {
 // })
 
 // console.log(newMatn.join(' '))
-let summ = 0
-const matn = prompt('sonni kiriting').trim().split('')
-matn.forEach((letter)=>{
-    if(letter.toString() == 'a') summ++;
-})
+// let summ = 0
+// const matn = prompt('sonni kiriting').trim().split('')
+// matn.forEach((letter)=>{
+//     if(letter.toString() == 'a') summ++;
+// })
 
-console.log(summ)
+// console.log(summ)
+
+// const array = [2,21,"Olimjon", 12.1, ["i am array"], null, true, 214]
+// let newArray = []
+// array.forEach((item) =>{
+//   newArray.push(typeof item)  
+// })
+
+// console.log(newArray)
+// const array = [1,2,3,4,5,6]
+// let newArray = []
+// array.forEach((item,i)=>{
+//     newArray.push(item+i)
+// })
+// console.log(newArray)
+let newArray = []
+const n = 100
+
+for(let i=1;i<=n;i++)
+{   let str = ''
+    if(i%3==0) str="fizz"; else
+    if(i%5==0) str+="buzz"; 
+    
+}

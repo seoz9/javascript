@@ -1,0 +1,33 @@
+header{
+    text-align: center;
+}
+
+
+.card{
+    width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: #ccc;
+    margin-bottom: 16px;
+}
+
+.btn-container{
+    text-align: right;
+}
+.btn{
+    padding: 8px 16px;
+    background-color: coral;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:hover{
+    background-color: crimson;
+}
+
+
+

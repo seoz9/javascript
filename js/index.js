@@ -18,4 +18,34 @@ const user = {
     }
 }
 
-console.log(user.moviesWatch())
+const data = [
+    [1,2,3],
+    "qizil",
+    [4,5,6],
+    true,
+    false
+]
+const newData = []
+
+data.forEach((item) => {
+    if(Array.isArray(item))
+        item.forEach((number) => {
+            newData.push(number)
+        })
+})
+
+// const matn = prompt('matn kiriting').trim().split(' ');
+// const newMatn =[]
+// matn.forEach((text)=>{
+//     let res = text.charAt().toLowerCase()+text.slice(1).toUpperCase()
+//     newMatn.push(res)
+// })
+
+// console.log(newMatn.join(' '))
+let summ = 0
+const matn = prompt('sonni kiriting').trim().split('')
+matn.forEach((letter)=>{
+    if(letter.toString() == 'a') summ++;
+})
+
+console.log(summ)

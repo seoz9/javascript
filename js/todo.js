@@ -85,20 +85,18 @@
 //     if(item.textContent.includes("success")) item.classList.add("success")
 //     if(item.textContent.includes("error")) item.classList.add("error")
 // })}
-   function setLiClick(){
-   let items = document.querySelectorAll('li')
-   items.forEach((item)=>{
-    item.addEventListener('click',()=>{
-         if(item.style.textDecoration!='line-through'){
-         item.style.textDecoration = "line-through"
-         item.style.opacity = 0.8}
+   let ul = document.querySelector('ul')
+   ul.addEventListener('click', (e)=>{
+      if(e.target.style.textDecoration!='line-through'){
+         e.target.style.textDecoration = "line-through"
+         e.target.style.opacity = 0.8}
          else {
-            item.style.textDecoration = "none"
-            item.style.opacity = 1
+            e.target.style.textDecoration = "none"
+            e.target.style.opacity = 1
          }
-    })
    })
-   }
+   
+     
    let btnRemove = document.querySelector('#btn-remove')
    btnRemove.onclick = () =>{
       let items = document.querySelectorAll('li')

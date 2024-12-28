@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/472c5f4d3028af65b8cba2afaeeb7e7e.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+  
+}

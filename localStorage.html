@@ -9,6 +9,14 @@
     
     <input type="text" name="name" id="name"/>
     <script>
+        const inputText = document.querySelector("#name")
+        const storage = localStorage.getItem('name');
+        
+        if(storage!=null) inputText.value = storage
+        inputText.addEventListener("keyup",(e)=>{
+            localStorage.setItem('name', e.target.value)
+        })
+
         
     </script>
 </body>

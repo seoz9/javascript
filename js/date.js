@@ -10,5 +10,5 @@ getDate = ()=>{
     clock.innerHTML = `${soat}:${min}:${sek}`
     date.innerHTML = `${now.getDay()} ${months[now.getMonth()]}, ${now.getFullYear()}`
 }
-
+getDate()
 setInterval(getDate,1000)
